@@ -1,5 +1,5 @@
 //require Manager 
-
+const Manager = require("./Manager");
 //create test on manager class
 
 //test to see if you can set officeNumber using our constructor

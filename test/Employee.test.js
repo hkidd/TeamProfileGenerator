@@ -1,5 +1,5 @@
 //require Employee
-
+const Employee = require("./Employee");
 // create test for employee 
 
 // test to see if type of new employee is an object
