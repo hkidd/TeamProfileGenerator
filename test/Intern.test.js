@@ -1,5 +1,5 @@
 //Require Intern  
-const Intern = require("./Intern");
+const Intern = require("../lib/Intern");
 //create test on Intern class
 
 //test to see if you can set school using our constructor

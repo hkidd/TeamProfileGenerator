@@ -1,5 +1,5 @@
 //require Engineer
-const Engineer = require("./Engineer");
+const Engineer = require("../lib/Engineer");
 //create test on manager class
 
 //test to see if you can set github using our constructor
