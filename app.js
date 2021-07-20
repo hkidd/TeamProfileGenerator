@@ -1,21 +1,11 @@
 // Require classes and inquirer and fs
 const inquirer = require("inquirer");
 const fs = require("fs");
-const Employee = require("./lib/Employee");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
 
-// Package native to node for resolving path
-const path = require("path");
-
-// Determine current directory and find path to the output folder
-const OUTPUT_DIR = path.resolve(__dirname, "output");
-// HTML output directory
-const outputPath = path.join(OUTPUT_DIR, "team.html");
-
 // Require functions from the page template
-const generateHTML = require("./src/page-template.js");
 const arrayMaker = require("./src/page-template.js");
 
 // Use inquirer to determine what kind of employee you will be adding or to exit and build html
@@ -151,7 +141,6 @@ function startQuestions() {
             engineerGitHub
           );
           teamArray.push(engineer);
-          console.log(teamArray);
 
           makeEmployee(newEmployee);
         });
@@ -172,27 +161,19 @@ function startQuestions() {
             internSchool
           );
           teamArray.push(intern);
-          console.log(teamArray);
 
           makeEmployee(newEmployee);
         });
+        // If no more employees, start HTML generation
       } else if (newEmployee == "Finish Building my Team") {
-        buildTeam();
+        console.log(teamArray);
+        arrayMaker(teamArray);
       }
     }
   });
 }
 
-function buildTeam() {
-  // Create the output directory if the output path doesn't exist
-  if (!fs.existsSync(OUTPUT_DIR)) {
-    fs.mkdirSync(OUTPUT_DIR);
-  }
-  // write html to output/team.html using function exported from page-template.js
-  fs.writeFile("team.html", newHTML, (err) =>
-    err ? console.log(err) : console.log("Success!")
-  );
-}
-
 // Function to initialize app
 startQuestions();
+
+module.exports = teamArray;
