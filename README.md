@@ -48,7 +48,7 @@ This project is covered under the MIT license.
 Harrison Kidd
 
 ## Demo
-https://drive.google.com/file/d/1S-_xLYTUoIT5cF_461Ki3leCLEM24MCO/view?usp=sharing
+![GIF]
 
 ## Questions
 Contact me with any questions here: [harrisonakidd@gmail.com](mailto:harrisonakidd@gmail.com)
