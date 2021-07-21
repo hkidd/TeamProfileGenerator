@@ -176,4 +176,5 @@ function startQuestions() {
 // Function to initialize app
 startQuestions();
 
+// Export teamArray for page-template
 module.exports = teamArray;

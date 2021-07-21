@@ -71,7 +71,7 @@ function internCards() {
   generateHTML();
 }
 
-// HTML file template
+// HTML file template, with card arrays being pushed in
 function generateHTML() {
   let newHTML = `<!DOCTYPE html>
   <html lang="en">
