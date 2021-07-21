@@ -1,1 +1,30 @@
 /* do some CSS stuff in here */
+
+* {
+    padding: 0;
+}
+
+.jumbotron {
+    background-color: #F53230;
+    color: white;
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+    float: none;
+    margin-bottom: 10px;
+    display: inline-flex;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.cardHead {
+    background-color: #437CDE;
+    color: white;
+    width: 100%;
+}
+
+.cardBod {
+    background-color: lightgray;
+}
