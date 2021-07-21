@@ -30,3 +30,25 @@ THEN I am prompted to enter the intern’s name, ID, email, and school, and I am
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
+
+## Installation
+What's needed to run:
+```
+node.js
+npm init
+npm i inquirer
+npm i jest
+```
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br>
+This project is covered under the MIT license.
+
+## Contributing
+Harrison Kidd
+
+## Demo
+![GIF]
+
+## Questions
+Contact me with any questions here: [harrisonakidd@gmail.com](mailto:harrisonakidd@gmail.com)
