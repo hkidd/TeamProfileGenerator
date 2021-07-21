@@ -47,8 +47,11 @@ This project is covered under the MIT license.
 ## Contributing
 Harrison Kidd
 
-## Demo
-![GIF]
+## Example of Output
+![Example Image](./images/TeamGenEx.png)
+
+## Demo Video
+https://drive.google.com/file/d/1S-_xLYTUoIT5cF_461Ki3leCLEM24MCO/view?usp=sharing
 
 ## Questions
 Contact me with any questions here: [harrisonakidd@gmail.com](mailto:harrisonakidd@gmail.com)
